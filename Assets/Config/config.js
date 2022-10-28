@@ -1,0 +1,11 @@
+module.exports = {
+  TOKEN: process.env.TOKEN || "",
+  MONGO_DB: process.env.MONGO_DB || "",
+  CLIENT_ID: process.env.CLIENT_ID || "1034254731142504478",
+  OWNERS: ["760938184661008455"],
+  SUPPORT_SERVER: "https://discord.gg/zAfNrPR2fN",
+  CHANNELS: {
+    COMMANDS_LOGS: "834805681999315015",
+    ERROR_COMMAND_LOGS: "834805681999315015"
+  }
+}
